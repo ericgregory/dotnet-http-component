@@ -31,3 +31,4 @@ C:\users\egreg\dotnet\wasmcloud\hello-wasm\obj\Debug\net9.0\wasi-wasm\wit_bindge
 C:\users\egreg\dotnet\wasmcloud\hello-wasm\obj\Debug\net9.0\wasi-wasm\wit_bindgen\ProxyWorld.wit.imports.wasi.random.v0_2_0.RandomInterop.cs
 C:\users\egreg\dotnet\wasmcloud\hello-wasm\obj\Debug\net9.0\wasi-wasm\wit_bindgen\ProxyWorld_component_type.wit
 C:\users\egreg\dotnet\wasmcloud\hello-wasm\obj\Debug\net9.0\wasi-wasm\wit_bindgen\ProxyWorld_wasm_import_linkage_attribute.cs
+C:\users\egreg\dotnet\wasmcloud\hello-wasm\obj\Debug\net9.0\wasi-wasm\hello-wasm.sourcelink.json

@@ -5,7 +5,6 @@ namespace ProxyWorld.wit.exports.wasi.http.v0_2_0;
 
 public class IncomingHandlerImpl: IIncomingHandler {
     public static void Handle(ITypes.IncomingRequest request, ITypes.ResponseOutparam responseOut) {
-    throw new InvalidOperationException("oopsie-woopsie");
 	var content = Encoding.ASCII.GetBytes("Hello, World!");
 	var headers = new List<(string, byte[])> {
 	    ("content-type", Encoding.ASCII.GetBytes("text/plain")),
