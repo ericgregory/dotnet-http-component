@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\users\\egreg\\dotnet\\wasmcloud\\hello-wasm\\hello-wasm.csproj": {}
+  },
+  "projects": {
+    "C:\\users\\egreg\\dotnet\\wasmcloud\\hello-wasm\\hello-wasm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\users\\egreg\\dotnet\\wasmcloud\\hello-wasm\\hello-wasm.csproj",
+        "projectName": "hello-wasm",
+        "projectPath": "C:\\users\\egreg\\dotnet\\wasmcloud\\hello-wasm\\hello-wasm.csproj",
+        "packagesPath": "C:\\Users\\egreg\\.nuget\\packages\\",
+        "outputPath": "C:\\users\\egreg\\dotnet\\wasmcloud\\hello-wasm\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\users\\egreg\\dotnet\\wasmcloud\\hello-wasm\\NuGet.Config",
+          "C:\\Users\\egreg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-experimental/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BytecodeAlliance.Componentize.DotNet.Wasm.SDK": {
+              "target": "Package",
+              "version": "[0.2.0-preview00004, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-preview.7.24405.7, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "wasi-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

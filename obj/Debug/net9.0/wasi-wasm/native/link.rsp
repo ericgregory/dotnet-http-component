@@ -1,0 +1,29 @@
+﻿-Wl,--component-type,"obj/Debug/net9.0/wasi-wasm/wit_bindgen/ProxyWorld_component_type.wit"
+"C:/Users/egreg/.nuget/packages/runtime.wasi-wasm.microsoft.dotnet.ilcompiler.llvm/9.0.0-rc.1.24412.1/framework/libSystem.Native.a"
+"C:/Users/egreg/.nuget/packages/runtime.wasi-wasm.microsoft.dotnet.ilcompiler.llvm/9.0.0-rc.1.24412.1/framework/libSystem.Native.TimeZoneData.a"
+"C:/Users/egreg/.nuget/packages/runtime.wasi-wasm.microsoft.dotnet.ilcompiler.llvm/9.0.0-rc.1.24412.1/sdk/libbootstrapperdll.o"
+"C:/Users/egreg/.nuget/packages/runtime.wasi-wasm.microsoft.dotnet.ilcompiler.llvm/9.0.0-rc.1.24412.1/sdk/libPortableRuntime.a"
+"C:/Users/egreg/.nuget/packages/runtime.wasi-wasm.microsoft.dotnet.ilcompiler.llvm/9.0.0-rc.1.24412.1/sdk/libstandalonegc-disabled.a"
+"C:/Users/egreg/.nuget/packages/runtime.wasi-wasm.microsoft.dotnet.ilcompiler.llvm/9.0.0-rc.1.24412.1/sdk/libEmulatedExceptionHandling.a"
+"obj/Debug/net9.0/wasi-wasm/native/hello-wasm.o"
+"obj/Debug/net9.0/wasi-wasm/native/hello-wasm.0.o"
+"obj/Debug/net9.0/wasi-wasm/native/hello-wasm.1.o"
+"obj/Debug/net9.0/wasi-wasm/native/hello-wasm.2.o"
+"obj/Debug/net9.0/wasi-wasm/native/hello-wasm.3.o"
+"obj/Debug/net9.0/wasi-wasm/native/hello-wasm.4.o"
+"obj/Debug/net9.0/wasi-wasm/native/hello-wasm.5.o"
+"obj/Debug/net9.0/wasi-wasm/native/hello-wasm.6.o"
+"obj/Debug/net9.0/wasi-wasm/native/hello-wasm.7.o"
+"obj/Debug/net9.0/wasi-wasm/native/hello-wasm.external.o"
+-Wl,--component-type,"C:/Users/egreg/.nuget/packages/runtime.wasi-wasm.microsoft.dotnet.ilcompiler.llvm/9.0.0-rc.1.24412.1/framework/WasiHttpWorld_component_type.wit"
+-o "bin/Debug/net9.0/wasi-wasm/native/hello-wasm.wasm"
+-g3
+-target wasm32-unknown-wasip2
+--sysroot="C:/Users/egreg/.wasi-sdk/wasi-sdk-24.0/share/wasi-sysroot"
+-Wl,--export=wasi:http/incoming-handler@0.2.0#handle
+-Wl,--unresolved-symbols=ignore-all
+-lstdc++ -lwasi-emulated-process-clocks -lwasi-emulated-signal -lwasi-emulated-getpid
+-Wl,--max-memory=2147483648
+-Wl,--global-base=1024
+-Wl,-z,stack-size=1048576
+-mexec-model=reactor

@@ -1,0 +1,10 @@
+obj\Debug\net9.0\wasi-wasm\native\hello-wasm.0.bc
+obj\Debug\net9.0\wasi-wasm\native\hello-wasm.1.bc
+obj\Debug\net9.0\wasi-wasm\native\hello-wasm.2.bc
+obj\Debug\net9.0\wasi-wasm\native\hello-wasm.3.bc
+obj\Debug\net9.0\wasi-wasm\native\hello-wasm.4.bc
+obj\Debug\net9.0\wasi-wasm\native\hello-wasm.5.bc
+obj\Debug\net9.0\wasi-wasm\native\hello-wasm.6.bc
+obj\Debug\net9.0\wasi-wasm\native\hello-wasm.7.bc
+obj\Debug\net9.0\wasi-wasm\native\hello-wasm.external.bc
+obj\Debug\net9.0\wasi-wasm\native\hello-wasm.o

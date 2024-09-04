@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zoZ0btbCT3g=",
+  "success": true,
+  "projectFilePath": "C:\\users\\egreg\\dotnet\\wasmcloud\\hello-wasm\\hello-wasm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\egreg\\.nuget\\packages\\bytecodealliance.componentize.dotnet.wasm.sdk\\0.2.0-preview00004\\bytecodealliance.componentize.dotnet.wasm.sdk.0.2.0-preview00004.nupkg.sha512",
+    "C:\\Users\\egreg\\.nuget\\packages\\bytecodealliance.componentize.dotnet.witbindgen\\0.2.0-preview00004\\bytecodealliance.componentize.dotnet.witbindgen.0.2.0-preview00004.nupkg.sha512",
+    "C:\\Users\\egreg\\.nuget\\packages\\microsoft.dotnet.ilcompiler.llvm\\9.0.0-rc.1.24412.1\\microsoft.dotnet.ilcompiler.llvm.9.0.0-rc.1.24412.1.nupkg.sha512",
+    "C:\\Users\\egreg\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.0-preview.7.24405.7\\microsoft.net.illink.tasks.9.0.0-preview.7.24405.7.nupkg.sha512",
+    "C:\\Users\\egreg\\.nuget\\packages\\runtime.wasi-wasm.microsoft.dotnet.ilcompiler.llvm\\9.0.0-rc.1.24412.1\\runtime.wasi-wasm.microsoft.dotnet.ilcompiler.llvm.9.0.0-rc.1.24412.1.nupkg.sha512",
+    "C:\\Users\\egreg\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler.llvm\\9.0.0-rc.1.24412.1\\runtime.win-x64.microsoft.dotnet.ilcompiler.llvm.9.0.0-rc.1.24412.1.nupkg.sha512"
+  ],
+  "logs": []
+}
